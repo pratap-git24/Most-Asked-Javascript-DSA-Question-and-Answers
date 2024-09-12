@@ -9,7 +9,7 @@ function flatten(arr){
             output += arr[i];
         }
     }
-    return output;
+    return output
 }
 
 console.log(flatten(arr))
