@@ -7,7 +7,7 @@ function longestArr(str){
     return word[0];
 }
 
-//console.log(longestArr("My name is pratap"));
+console.log(longestArr("My name is pratap"));
 
 // solution 2
 function longestArr2(str){
@@ -19,4 +19,4 @@ function longestArr2(str){
     return longestWord;
 }
 
-console.log(longestArr2("My99999 name is laxman"));
+console.log(longestArr2("My name is laxman"));
