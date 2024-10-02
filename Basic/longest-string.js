@@ -3,11 +3,11 @@
 // solution 1
 function longestArr(str){
     let words = str.split(" ");
-    let word = words.sort((a,b)=>b.length-a.length)
-    return word[0];
+    let word = words.sort((a,b)=>console.log(a.length-b.length))
+    return word[words.length-1];
 }
 
-console.log(longestArr("My name is pratap"));
+console.log(longestArr("My profession is develop software"));
 
 // solution 2
 function longestArr2(str){
