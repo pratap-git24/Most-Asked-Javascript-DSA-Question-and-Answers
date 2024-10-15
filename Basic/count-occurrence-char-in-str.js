@@ -9,4 +9,4 @@ function countChar(str,char){
     return count;
 }
 
-console.log(countChar("Poooja",'J'))
+console.log(countChar("Poooja",'Ja'))
