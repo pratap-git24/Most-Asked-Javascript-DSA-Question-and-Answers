@@ -10,3 +10,6 @@ function countChar(str,char){
 }
 
 console.log(countChar("Poooja",'Ja'))
+
+// solution 2 
+
