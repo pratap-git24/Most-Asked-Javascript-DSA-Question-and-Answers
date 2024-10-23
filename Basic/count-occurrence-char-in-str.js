@@ -9,7 +9,7 @@ function countChar(str,char){
     return count;
 }
 
-console.log(countChar("Poooja",'Ja'))
+console.log(countChar("Poooja",'Ja')); 
 
 // solution 2 
 
