@@ -7,5 +7,5 @@ let people = [
     {name: 'Ricky', age: 17}
 ];
 
-let new_obj = people.sort((a,b)=> a.age-b.age);
-console.log(new_obj);
+let sorted_people = people.sort((a,b)=> a.age-b.age);
+console.log(sorted_people);
