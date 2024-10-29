@@ -10,3 +10,11 @@ function intersection(arr1,arr2){
 }
 
 console.log(intersection([1, 2, 3, 4], [3, 4, 5, 6]));
+
+// Solution 2
+
+function intersectionTwoArr(arr1,arr2){
+    return arr1.filter(item=>arr2.indexOf(item) !== -1)
+}
+
+console.log(intersectionTwoArr([1, 2, 3, 4], [3, 4, 5, 6]));
